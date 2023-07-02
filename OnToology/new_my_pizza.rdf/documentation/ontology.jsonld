@@ -1,0 +1,1638 @@
+[ {
+  "@id" : "_:genid1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#hasSpiciness"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#SpicyValuePartition"
+  } ]
+}, {
+  "@id" : "_:genid103",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#hasSpiciness"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#Hot"
+  } ]
+}, {
+  "@id" : "_:genid104",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#Pizza"
+    }, {
+      "@id" : "_:genid106"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid106",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#hasTopping"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "_:genid107"
+  } ]
+}, {
+  "@id" : "_:genid107",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#PizzaTopping"
+    }, {
+      "@id" : "_:genid109"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid109",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#hasSpiciness"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#Hot"
+  } ]
+}, {
+  "@id" : "_:genid112",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#Hot"
+    }, {
+      "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#Medium"
+    }, {
+      "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#Mild"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid116",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#hasSpiciness"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#Mild"
+  } ]
+}, {
+  "@id" : "_:genid117",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#hasSpiciness"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#Mild"
+  } ]
+}, {
+  "@id" : "_:genid118",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#Pizza"
+    }, {
+      "@id" : "_:genid120"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid120",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#VegetableTopping"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#hasTopping"
+  } ]
+}, {
+  "@id" : "_:genid122",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#Pizza"
+    }, {
+      "@id" : "_:genid124"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid124",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "_:genid125"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#hasTopping"
+  } ]
+}, {
+  "@id" : "_:genid125",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#CheeseTopping"
+    }, {
+      "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#VegetableTopping"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid129",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#hasBase"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#ThinAndCrispyBase"
+  } ]
+}, {
+  "@id" : "_:genid13",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#hasTopping"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#CheeseTopping"
+  } ]
+}, {
+  "@id" : "_:genid130",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#hasSauce"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#TomatoSauce"
+  } ]
+}, {
+  "@id" : "_:genid131",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#hasTopping"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#MushroomTopping"
+  } ]
+}, {
+  "@id" : "_:genid132",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#hasTopping"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#OliveTopping"
+  } ]
+}, {
+  "@id" : "_:genid133",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#hasTopping"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#OnionTopping"
+  } ]
+}, {
+  "@id" : "_:genid134",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#hasTopping"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#TomatoTopping"
+  } ]
+}, {
+  "@id" : "_:genid135",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "_:genid136"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#hasTopping"
+  } ]
+}, {
+  "@id" : "_:genid136",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#MushroomTopping"
+    }, {
+      "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#OliveTopping"
+    }, {
+      "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#OnionTopping"
+    }, {
+      "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#TomatoTopping"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid14",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#hasTopping"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#MozzarellaTopping"
+  } ]
+}, {
+  "@id" : "_:genid141",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#AmericanHotPizza"
+    }, {
+      "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#AmericanaPizza"
+    }, {
+      "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#MargheritaPizza"
+    }, {
+      "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#SohoPizza"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid146",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#AnchovyTopping"
+    }, {
+      "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#PrawnTopping"
+    }, {
+      "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#TunaTopping"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid15",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#hasTopping"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#PepperoniTopping"
+  } ]
+}, {
+  "@id" : "_:genid150",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#BBQSauce"
+    }, {
+      "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#CocktailSauce"
+    }, {
+      "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#TomatoSauce"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid154",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#CheeseTopping"
+    }, {
+      "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#MeatTopping"
+    }, {
+      "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#SeafoodTopping"
+    }, {
+      "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#VegetableTopping"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid159",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#GreenPepperTopping"
+    }, {
+      "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#JalapenoPepperTopping"
+    }, {
+      "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#RedPepperTopping"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid16",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#hasTopping"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#TomatoTopping"
+  } ]
+}, {
+  "@id" : "_:genid163",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#HamTopping"
+    }, {
+      "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#PepperoniTopping"
+    }, {
+      "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#SalamiTopping"
+    }, {
+      "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#SpicyBeefTopping"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid168",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#Hot"
+    }, {
+      "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#Medium"
+    }, {
+      "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#Mild"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid17",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#TomatoSauce"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#hasSauce"
+  } ]
+}, {
+  "@id" : "_:genid172",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#MushroomTopping"
+    }, {
+      "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#OliveTopping"
+    }, {
+      "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#OnionTopping"
+    }, {
+      "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#PepperTopping"
+    }, {
+      "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#SweetcornTopping"
+    }, {
+      "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#TomatoTopping"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid179",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#Pizza"
+    }, {
+      "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#PizzaBase"
+    }, {
+      "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#PizzaSauce"
+    }, {
+      "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#PizzaTopping"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid18",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "_:genid19"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#hasTopping"
+  } ]
+}, {
+  "@id" : "_:genid184",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDifferent" ],
+  "http://www.w3.org/2002/07/owl#distinctMembers" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#America"
+    }, {
+      "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#England"
+    }, {
+      "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#France"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid188",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDifferent" ],
+  "http://www.w3.org/2002/07/owl#distinctMembers" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#America"
+    }, {
+      "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#England"
+    }, {
+      "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#Germany"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid19",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#CheeseTopping"
+    }, {
+      "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#MozzarellaTopping"
+    }, {
+      "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#PepperoniTopping"
+    }, {
+      "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#TomatoTopping"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid192",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDifferent" ],
+  "http://www.w3.org/2002/07/owl#distinctMembers" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#America"
+    }, {
+      "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#England"
+    }, {
+      "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#Italy"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid196",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDifferent" ],
+  "http://www.w3.org/2002/07/owl#distinctMembers" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#France"
+    }, {
+      "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#Germany"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid199",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDifferent" ],
+  "http://www.w3.org/2002/07/owl#distinctMembers" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#France"
+    }, {
+      "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#Germany"
+    }, {
+      "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#Italy"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#hasTopping"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#JalapenoPepperTopping"
+  } ]
+}, {
+  "@id" : "_:genid24",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#hasTopping"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#MeatTopping"
+  } ]
+}, {
+  "@id" : "_:genid25",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#hasTopping"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#MozzarellaTopping"
+  } ]
+}, {
+  "@id" : "_:genid26",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#BBQSauce"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#hasSauce"
+  } ]
+}, {
+  "@id" : "_:genid27",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#Pizza"
+    }, {
+      "@id" : "_:genid29"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid29",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#hasTopping"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#CheeseTopping"
+  } ]
+}, {
+  "@id" : "_:genid3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#hasTopping"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#MozzarellaTopping"
+  } ]
+}, {
+  "@id" : "_:genid31",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#oneOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#America"
+    }, {
+      "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#England"
+    }, {
+      "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#France"
+    }, {
+      "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#Germany"
+    }, {
+      "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#Italy"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid37",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onClass" : [ {
+    "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#CheeseTopping"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#hasTopping"
+  } ],
+  "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "4"
+  } ]
+}, {
+  "@id" : "_:genid38",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#hasSpiciness"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#Medium"
+  } ]
+}, {
+  "@id" : "_:genid39",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#hasSpiciness"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#Mild"
+  } ]
+}, {
+  "@id" : "_:genid4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#hasTopping"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#PepperoniTopping"
+  } ]
+}, {
+  "@id" : "_:genid40",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#Pizza"
+    }, {
+      "@id" : "_:genid42"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid42",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#hasCalorificContentValue"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "_:genid43"
+  } ]
+}, {
+  "@id" : "_:genid43",
+  "@type" : [ "http://www.w3.org/2000/01/rdf-schema#Datatype" ],
+  "http://www.w3.org/2002/07/owl#onDatatype" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ],
+  "http://www.w3.org/2002/07/owl#withRestrictions" : [ {
+    "@list" : [ {
+      "@id" : "_:genid45"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid45",
+  "http://www.w3.org/2001/XMLSchema#minInclusive" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "400"
+  } ]
+}, {
+  "@id" : "_:genid47",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#Pizza"
+    }, {
+      "@id" : "_:genid49"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid49",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#minCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "3"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#hasTopping"
+  } ]
+}, {
+  "@id" : "_:genid5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#hasTopping"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#TomatoTopping"
+  } ]
+}, {
+  "@id" : "_:genid51",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#hasSpiciness"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#Hot"
+  } ]
+}, {
+  "@id" : "_:genid52",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#Pizza"
+    }, {
+      "@id" : "_:genid54"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid54",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#hasCalorificContentValue"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "_:genid55"
+  } ]
+}, {
+  "@id" : "_:genid55",
+  "@type" : [ "http://www.w3.org/2000/01/rdf-schema#Datatype" ],
+  "http://www.w3.org/2002/07/owl#onDatatype" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ],
+  "http://www.w3.org/2002/07/owl#withRestrictions" : [ {
+    "@list" : [ {
+      "@id" : "_:genid57"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid57",
+  "http://www.w3.org/2001/XMLSchema#maxInclusive" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "399"
+  } ]
+}, {
+  "@id" : "_:genid59",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#hasTopping"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#MozzarellaTopping"
+  } ]
+}, {
+  "@id" : "_:genid6",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#TomatoSauce"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#hasSauce"
+  } ]
+}, {
+  "@id" : "_:genid60",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#hasTopping"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#TomatoTopping"
+  } ]
+}, {
+  "@id" : "_:genid61",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#TomatoSauce"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#hasSauce"
+  } ]
+}, {
+  "@id" : "_:genid62",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "_:genid63"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#hasTopping"
+  } ]
+}, {
+  "@id" : "_:genid63",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#MozzarellaTopping"
+    }, {
+      "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#TomatoTopping"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid66",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#hasSpiciness"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#Mild"
+  } ]
+}, {
+  "@id" : "_:genid67",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#hasValue" : [ {
+    "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#Italy"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#hasCountryOfOrigin"
+  } ]
+}, {
+  "@id" : "_:genid68",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#hasSpiciness"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#Mild"
+  } ]
+}, {
+  "@id" : "_:genid69",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#Pizza"
+    }, {
+      "@id" : "_:genid71"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid7",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "_:genid8"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#hasTopping"
+  } ]
+}, {
+  "@id" : "_:genid71",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#Pizza"
+    }, {
+      "@id" : "_:genid73"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid73",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#complementOf" : [ {
+    "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#VegetarianPizza"
+  } ]
+}, {
+  "@id" : "_:genid76",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#hasSpiciness"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#Mild"
+  } ]
+}, {
+  "@id" : "_:genid77",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#hasSpiciness"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#Mild"
+  } ]
+}, {
+  "@id" : "_:genid78",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#hasSpiciness"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#Mild"
+  } ]
+}, {
+  "@id" : "_:genid79",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#hasSpiciness"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#Mild"
+  } ]
+}, {
+  "@id" : "_:genid8",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#JalapenoPepperTopping"
+    }, {
+      "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#MozzarellaTopping"
+    }, {
+      "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#PepperoniTopping"
+    }, {
+      "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#TomatoTopping"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid80",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#hasBase"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#PizzaBase"
+  } ]
+}, {
+  "@id" : "_:genid81",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#hasCalorificContentValue"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ]
+}, {
+  "@id" : "_:genid82",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#hasSpiciness"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#Medium"
+  } ]
+}, {
+  "@id" : "_:genid83",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#hasSpiciness"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#Mild"
+  } ]
+}, {
+  "@id" : "_:genid84",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#hasTopping"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#ParmesanTopping"
+  } ]
+}, {
+  "@id" : "_:genid85",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#hasTopping"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#PrawnTopping"
+  } ]
+}, {
+  "@id" : "_:genid86",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#hasTopping"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#SquidTopping"
+  } ]
+}, {
+  "@id" : "_:genid87",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#CocktailSauce"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#hasSauce"
+  } ]
+}, {
+  "@id" : "_:genid88",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "_:genid89"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#hasTopping"
+  } ]
+}, {
+  "@id" : "_:genid89",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#ParmesanTopping"
+    }, {
+      "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#PrawnTopping"
+    }, {
+      "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#SquidTopping"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid93",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#hasTopping"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#MozzarellaTopping"
+  } ]
+}, {
+  "@id" : "_:genid94",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#hasTopping"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#OliveTopping"
+  } ]
+}, {
+  "@id" : "_:genid95",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#hasTopping"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#ParmesanTopping"
+  } ]
+}, {
+  "@id" : "_:genid96",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#hasTopping"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#TomatoTopping"
+  } ]
+}, {
+  "@id" : "_:genid97",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "_:genid98"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#hasTopping"
+  } ]
+}, {
+  "@id" : "_:genid98",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#MozzarellaTopping"
+    }, {
+      "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#OliveTopping"
+    }, {
+      "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#ParmesanTopping"
+    }, {
+      "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#TomatoTopping"
+    } ]
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A pizza ontology that describes various pizzas based on their toppings by me called my_pizza"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#America",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#Country"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#AmericanHotPizza",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#NamedPizza"
+  }, {
+    "@id" : "_:genid2"
+  }, {
+    "@id" : "_:genid3"
+  }, {
+    "@id" : "_:genid4"
+  }, {
+    "@id" : "_:genid5"
+  }, {
+    "@id" : "_:genid6"
+  }, {
+    "@id" : "_:genid7"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#AmericanaPizza",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#NamedPizza"
+  }, {
+    "@id" : "_:genid13"
+  }, {
+    "@id" : "_:genid14"
+  }, {
+    "@id" : "_:genid15"
+  }, {
+    "@id" : "_:genid16"
+  }, {
+    "@id" : "_:genid17"
+  }, {
+    "@id" : "_:genid18"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#AnchovyTopping",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#SeafoodTopping"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#BBQPizza",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#NamedPizza"
+  }, {
+    "@id" : "_:genid24"
+  }, {
+    "@id" : "_:genid25"
+  }, {
+    "@id" : "_:genid26"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#BBQSauce",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#PizzaSauce"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#CheeseTopping",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#PizzaTopping"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#CheesyPizza",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid27"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#CocktailSauce",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#PizzaSauce"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#Country",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid31"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#DeepPanBase",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#PizzaBase"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#ThinAndCrispyBase"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#England",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#Country"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#Example-AmericanHotPizza",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#hasCalorificContentValue" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "345"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#AmericanHotPizza"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#Example-AmericanaPizza",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#hasCalorificContentValue" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "662"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#AmericanaPizza"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#Example-Margherita",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#hasCalorificContentValue" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "263"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#MargheritaPizza"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#Example-QuattroFormaggio",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#hasCalorificContentValue" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "723"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#FourCheesePizza"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#Example-SeafoodCocktailPizza",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#SeafoodCocktailPizza"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#Example-SohoPizza",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#hasCalorificContentValue" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "431"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#SohoPizza"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#Example-VeggiePizza",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#VeggiePizza"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#FourCheesePizza",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#Pizza"
+  }, {
+    "@id" : "_:genid37"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#France",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#Country"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#Germany",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#Country"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#GreenPepperTopping",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#PepperTopping"
+  }, {
+    "@id" : "_:genid38"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#HamTopping",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#MeatTopping"
+  }, {
+    "@id" : "_:genid39"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#HighCaloriePizza",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid40"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#Hot",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#SpicyValuePartition"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#InterestingPizza",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid47"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#Italy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#Country"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#JalapenoPepperTopping",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#PepperTopping"
+  }, {
+    "@id" : "_:genid51"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#LowCaloriePizza",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid52"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#MargheritaPizza",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A pizza that only has Mozarella and Tomato toppings"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#NamedPizza"
+  }, {
+    "@id" : "_:genid59"
+  }, {
+    "@id" : "_:genid60"
+  }, {
+    "@id" : "_:genid61"
+  }, {
+    "@id" : "_:genid62"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#MeatTopping",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#PizzaTopping"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#Medium",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#SpicyValuePartition"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#Mild",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#SpicyValuePartition"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#MozzarellaTopping",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#CheeseTopping"
+  }, {
+    "@id" : "_:genid66"
+  }, {
+    "@id" : "_:genid67"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#ParmesanTopping"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#MushroomTopping",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#VegetableTopping"
+  }, {
+    "@id" : "_:genid68"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#NamedPizza",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#Pizza"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#NonVegetarianPizza",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#VegetarianPizza"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid69"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#OliveTopping",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#VegetableTopping"
+  }, {
+    "@id" : "_:genid76"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#OnionTopping",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#VegetableTopping"
+  }, {
+    "@id" : "_:genid77"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#ParmesanTopping",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#CheeseTopping"
+  }, {
+    "@id" : "_:genid78"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#PepperTopping",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#VegetableTopping"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#PepperoniTopping",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#MeatTopping"
+  }, {
+    "@id" : "_:genid79"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#Pizza",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Thing"
+  }, {
+    "@id" : "_:genid80"
+  }, {
+    "@id" : "_:genid81"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#PizzaBase",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#PizzaSauce",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#PizzaTopping",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#PrawnTopping",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#SeafoodTopping"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#RedPepperTopping",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#PepperTopping"
+  }, {
+    "@id" : "_:genid82"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#SalamiTopping",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#MeatTopping"
+  }, {
+    "@id" : "_:genid83"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#SeafoodCocktailPizza",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#NamedPizza"
+  }, {
+    "@id" : "_:genid84"
+  }, {
+    "@id" : "_:genid85"
+  }, {
+    "@id" : "_:genid86"
+  }, {
+    "@id" : "_:genid87"
+  }, {
+    "@id" : "_:genid88"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#SeafoodTopping",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#PizzaTopping"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#SohoPizza",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A pizza that only has Mozarella and Tomato toppings"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#NamedPizza"
+  }, {
+    "@id" : "_:genid93"
+  }, {
+    "@id" : "_:genid94"
+  }, {
+    "@id" : "_:genid95"
+  }, {
+    "@id" : "_:genid96"
+  }, {
+    "@id" : "_:genid97"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#SpicyBeefTopping",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#MeatTopping"
+  }, {
+    "@id" : "_:genid103"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#SpicyPizza",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid104"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#SpicyValuePartition",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#ValuePartition"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid112"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#SquidTopping",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#SeafoodTopping"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#SweetcornTopping",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#VegetableTopping"
+  }, {
+    "@id" : "_:genid116"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#ThinAndCrispyBase",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#PizzaBase"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#TomatoSauce",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#PizzaSauce"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#TomatoTopping",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#VegetableTopping"
+  }, {
+    "@id" : "_:genid117"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#TunaTopping",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#SeafoodTopping"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#ValuePartition",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#VeganPizza",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid118"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#VegetableTopping",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#PizzaTopping"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#VegetarianPizza",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid122"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#VeggiePizza",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#NamedPizza"
+  }, {
+    "@id" : "_:genid129"
+  }, {
+    "@id" : "_:genid130"
+  }, {
+    "@id" : "_:genid131"
+  }, {
+    "@id" : "_:genid132"
+  }, {
+    "@id" : "_:genid133"
+  }, {
+    "@id" : "_:genid134"
+  }, {
+    "@id" : "_:genid135"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#hasBase",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#Pizza"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#PizzaBase"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#hasIngredient"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#isBaseOf"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#hasCalorificContentValue",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ]
+}, {
+  "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#hasCountryOfOrigin",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#hasIngredient",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#TransitiveProperty" ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#isIngredientOf"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#hasSauce",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#Pizza"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#PizzaSauce"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#hasIngredient"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#isSauceOf"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#hasSpiciness",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "_:genid1"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#hasTopping",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#Pizza"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#PizzaTopping"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#hasIngredient"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#isToppingOf"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#isBaseOf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty", "http://www.w3.org/2002/07/owl#InverseFunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#isIngredientOf"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#isIngredientOf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#TransitiveProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#isSauceOf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty", "http://www.w3.org/2002/07/owl#InverseFunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#isIngredientOf"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#isToppingOf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#isIngredientOf"
+  } ]
+} ]
