@@ -1,0 +1,1021 @@
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza> <http://www.w3.org/2000/01/rdf-schema#comment> "A pizza ontology that describes various pizzas based on their toppings by me called my_pizza" .
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#hasBase
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#hasBase> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#hasBase> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#hasIngredient> .
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#hasBase> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#isBaseOf> .
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#hasBase> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#hasBase> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#Pizza> .
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#hasBase> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#PizzaBase> .
+# 
+# http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#hasCountryOfOrigin
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#hasCountryOfOrigin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#hasIngredient
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#hasIngredient> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#hasIngredient> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#isIngredientOf> .
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#hasIngredient> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#TransitiveProperty> .
+# 
+# http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#hasSauce
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#hasSauce> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#hasSauce> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#hasIngredient> .
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#hasSauce> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#isSauceOf> .
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#hasSauce> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#hasSauce> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#Pizza> .
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#hasSauce> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#PizzaSauce> .
+# 
+# http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#hasSpiciness
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#hasSpiciness> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#hasSpiciness> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#hasSpiciness> <http://www.w3.org/2000/01/rdf-schema#range> _:genid1 .
+_:genid1 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#SpicyValuePartition> .
+_:genid1 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#hasSpiciness> .
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+# 
+# http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#hasTopping
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#hasTopping> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#hasTopping> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#hasIngredient> .
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#hasTopping> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#isToppingOf> .
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#hasTopping> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#Pizza> .
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#hasTopping> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#PizzaTopping> .
+# 
+# http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#isBaseOf
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#isBaseOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#isBaseOf> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#isIngredientOf> .
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#isBaseOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#isBaseOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#InverseFunctionalProperty> .
+# 
+# http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#isIngredientOf
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#isIngredientOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#isIngredientOf> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#isIngredientOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#TransitiveProperty> .
+# 
+# http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#isSauceOf
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#isSauceOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#isSauceOf> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#isIngredientOf> .
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#isSauceOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#isSauceOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#InverseFunctionalProperty> .
+# 
+# http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#isToppingOf
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#isToppingOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#isToppingOf> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#isIngredientOf> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Data properties
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#hasCalorificContentValue
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#hasCalorificContentValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#hasCalorificContentValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#AmericanHotPizza
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#AmericanHotPizza> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#AmericanHotPizza> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#NamedPizza> .
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#AmericanHotPizza> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid2 .
+_:genid2 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#JalapenoPepperTopping> .
+_:genid2 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#hasTopping> .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#AmericanHotPizza> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid3 .
+_:genid3 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#MozzarellaTopping> .
+_:genid3 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#hasTopping> .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#AmericanHotPizza> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid4 .
+_:genid4 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#PepperoniTopping> .
+_:genid4 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#hasTopping> .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#AmericanHotPizza> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid5 .
+_:genid5 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#TomatoTopping> .
+_:genid5 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#hasTopping> .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#AmericanHotPizza> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid6 .
+_:genid6 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#TomatoSauce> .
+_:genid6 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#hasSauce> .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#AmericanHotPizza> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid7 .
+_:genid7 <http://www.w3.org/2002/07/owl#allValuesFrom> _:genid8 .
+_:genid8 <http://www.w3.org/2002/07/owl#unionOf> _:genid12 .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid11 .
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid10 .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid9 .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#TomatoTopping> .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#PepperoniTopping> .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#MozzarellaTopping> .
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#JalapenoPepperTopping> .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid7 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#hasTopping> .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+# 
+# http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#AmericanaPizza
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#AmericanaPizza> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#AmericanaPizza> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#NamedPizza> .
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#AmericanaPizza> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid13 .
+_:genid13 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#CheeseTopping> .
+_:genid13 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#hasTopping> .
+_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#AmericanaPizza> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid14 .
+_:genid14 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#MozzarellaTopping> .
+_:genid14 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#hasTopping> .
+_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#AmericanaPizza> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid15 .
+_:genid15 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#PepperoniTopping> .
+_:genid15 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#hasTopping> .
+_:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#AmericanaPizza> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid16 .
+_:genid16 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#TomatoTopping> .
+_:genid16 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#hasTopping> .
+_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#AmericanaPizza> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid17 .
+_:genid17 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#TomatoSauce> .
+_:genid17 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#hasSauce> .
+_:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#AmericanaPizza> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid18 .
+_:genid18 <http://www.w3.org/2002/07/owl#allValuesFrom> _:genid19 .
+_:genid19 <http://www.w3.org/2002/07/owl#unionOf> _:genid23 .
+_:genid23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid22 .
+_:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid21 .
+_:genid21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid20 .
+_:genid20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#TomatoTopping> .
+_:genid20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#PepperoniTopping> .
+_:genid21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#MozzarellaTopping> .
+_:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#CheeseTopping> .
+_:genid23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid18 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#hasTopping> .
+_:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+# 
+# http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#AnchovyTopping
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#AnchovyTopping> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#AnchovyTopping> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#SeafoodTopping> .
+# 
+# http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#BBQPizza
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#BBQPizza> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#BBQPizza> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#NamedPizza> .
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#BBQPizza> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid24 .
+_:genid24 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#MeatTopping> .
+_:genid24 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#hasTopping> .
+_:genid24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#BBQPizza> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid25 .
+_:genid25 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#MozzarellaTopping> .
+_:genid25 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#hasTopping> .
+_:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#BBQPizza> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid26 .
+_:genid26 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#BBQSauce> .
+_:genid26 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#hasSauce> .
+_:genid26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+# 
+# http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#BBQSauce
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#BBQSauce> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#BBQSauce> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#PizzaSauce> .
+# 
+# http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#CheeseTopping
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#CheeseTopping> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#CheeseTopping> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#PizzaTopping> .
+# 
+# http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#CheesyPizza
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#CheesyPizza> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#CheesyPizza> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid27 .
+_:genid27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid27 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid30 .
+_:genid30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid28 .
+_:genid28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid29 .
+_:genid29 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#CheeseTopping> .
+_:genid29 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#hasTopping> .
+_:genid29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#Pizza> .
+_:genid30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+# http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#CocktailSauce
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#CocktailSauce> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#CocktailSauce> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#PizzaSauce> .
+# 
+# http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#Country
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#Country> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#Country> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid31 .
+_:genid31 <http://www.w3.org/2002/07/owl#oneOf> _:genid36 .
+_:genid36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid35 .
+_:genid35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid34 .
+_:genid34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid33 .
+_:genid33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid32 .
+_:genid32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#Italy> .
+_:genid32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#Germany> .
+_:genid33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#France> .
+_:genid34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#England> .
+_:genid35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#America> .
+_:genid36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid31 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#DeepPanBase
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#DeepPanBase> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#DeepPanBase> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#PizzaBase> .
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#DeepPanBase> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#ThinAndCrispyBase> .
+# 
+# http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#FourCheesePizza
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#FourCheesePizza> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#FourCheesePizza> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#Pizza> .
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#FourCheesePizza> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid37 .
+_:genid37 <http://www.w3.org/2002/07/owl#onClass> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#CheeseTopping> .
+_:genid37 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "4"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid37 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#hasTopping> .
+_:genid37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+# 
+# http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#GreenPepperTopping
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#GreenPepperTopping> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#GreenPepperTopping> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#PepperTopping> .
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#GreenPepperTopping> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid38 .
+_:genid38 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#Medium> .
+_:genid38 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#hasSpiciness> .
+_:genid38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+# 
+# http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#HamTopping
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#HamTopping> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#HamTopping> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#MeatTopping> .
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#HamTopping> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid39 .
+_:genid39 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#Mild> .
+_:genid39 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#hasSpiciness> .
+_:genid39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+# 
+# http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#HighCaloriePizza
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#HighCaloriePizza> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#HighCaloriePizza> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid40 .
+_:genid40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid40 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid46 .
+_:genid46 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid41 .
+_:genid41 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid41 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid42 .
+_:genid42 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid43 .
+_:genid43 <http://www.w3.org/2002/07/owl#withRestrictions> _:genid44 .
+_:genid44 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid44 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid45 .
+_:genid45 <http://www.w3.org/2001/XMLSchema#minInclusive> "400"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:genid44 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid43 <http://www.w3.org/2002/07/owl#onDatatype> <http://www.w3.org/2001/XMLSchema#integer> .
+_:genid43 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+_:genid42 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#hasCalorificContentValue> .
+_:genid42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid41 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid46 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#Pizza> .
+_:genid46 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+# http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#Hot
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#Hot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#Hot> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#SpicyValuePartition> .
+# 
+# http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#InterestingPizza
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#InterestingPizza> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#InterestingPizza> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid47 .
+_:genid47 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid47 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid50 .
+_:genid50 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid48 .
+_:genid48 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid48 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid49 .
+_:genid49 <http://www.w3.org/2002/07/owl#minCardinality> "3"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid49 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#hasTopping> .
+_:genid49 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid48 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid50 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#Pizza> .
+_:genid50 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+# http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#JalapenoPepperTopping
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#JalapenoPepperTopping> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#JalapenoPepperTopping> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#PepperTopping> .
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#JalapenoPepperTopping> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid51 .
+_:genid51 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#Hot> .
+_:genid51 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#hasSpiciness> .
+_:genid51 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+# 
+# http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#LowCaloriePizza
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#LowCaloriePizza> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#LowCaloriePizza> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid52 .
+_:genid52 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid52 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid58 .
+_:genid58 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid53 .
+_:genid53 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid53 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid54 .
+_:genid54 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid55 .
+_:genid55 <http://www.w3.org/2002/07/owl#withRestrictions> _:genid56 .
+_:genid56 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid56 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid57 .
+_:genid57 <http://www.w3.org/2001/XMLSchema#maxInclusive> "399"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:genid56 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid55 <http://www.w3.org/2002/07/owl#onDatatype> <http://www.w3.org/2001/XMLSchema#integer> .
+_:genid55 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+_:genid54 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#hasCalorificContentValue> .
+_:genid54 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid53 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid58 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#Pizza> .
+_:genid58 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+# http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#MargheritaPizza
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#MargheritaPizza> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#MargheritaPizza> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#NamedPizza> .
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#MargheritaPizza> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid59 .
+_:genid59 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#MozzarellaTopping> .
+_:genid59 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#hasTopping> .
+_:genid59 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#MargheritaPizza> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid60 .
+_:genid60 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#TomatoTopping> .
+_:genid60 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#hasTopping> .
+_:genid60 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#MargheritaPizza> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid61 .
+_:genid61 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#TomatoSauce> .
+_:genid61 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#hasSauce> .
+_:genid61 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#MargheritaPizza> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid62 .
+_:genid62 <http://www.w3.org/2002/07/owl#allValuesFrom> _:genid63 .
+_:genid63 <http://www.w3.org/2002/07/owl#unionOf> _:genid65 .
+_:genid65 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid64 .
+_:genid64 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid64 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#TomatoTopping> .
+_:genid64 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid65 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#MozzarellaTopping> .
+_:genid65 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid63 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid62 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#hasTopping> .
+_:genid62 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#MargheritaPizza> <http://www.w3.org/2000/01/rdf-schema#comment> "A pizza that only has Mozarella and Tomato toppings" .
+# 
+# http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#MeatTopping
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#MeatTopping> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#MeatTopping> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#PizzaTopping> .
+# 
+# http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#Medium
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#Medium> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#Medium> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#SpicyValuePartition> .
+# 
+# http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#Mild
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#Mild> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#Mild> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#SpicyValuePartition> .
+# 
+# http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#MozzarellaTopping
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#MozzarellaTopping> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#MozzarellaTopping> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#CheeseTopping> .
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#MozzarellaTopping> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid66 .
+_:genid66 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#Mild> .
+_:genid66 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#hasSpiciness> .
+_:genid66 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#MozzarellaTopping> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid67 .
+_:genid67 <http://www.w3.org/2002/07/owl#hasValue> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#Italy> .
+_:genid67 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#hasCountryOfOrigin> .
+_:genid67 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#MozzarellaTopping> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#ParmesanTopping> .
+# 
+# http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#MushroomTopping
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#MushroomTopping> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#MushroomTopping> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#VegetableTopping> .
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#MushroomTopping> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid68 .
+_:genid68 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#Mild> .
+_:genid68 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#hasSpiciness> .
+_:genid68 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+# 
+# http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#NamedPizza
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#NamedPizza> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#NamedPizza> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#Pizza> .
+# 
+# http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#NonVegetarianPizza
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#NonVegetarianPizza> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#NonVegetarianPizza> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid69 .
+_:genid69 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid69 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid75 .
+_:genid75 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid70 .
+_:genid70 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid70 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid71 .
+_:genid71 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid71 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid74 .
+_:genid74 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid72 .
+_:genid72 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid72 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid73 .
+_:genid73 <http://www.w3.org/2002/07/owl#complementOf> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#VegetarianPizza> .
+_:genid73 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid72 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid74 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#Pizza> .
+_:genid74 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid70 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid75 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#Pizza> .
+_:genid75 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#NonVegetarianPizza> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#VegetarianPizza> .
+# 
+# http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#OliveTopping
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#OliveTopping> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#OliveTopping> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#VegetableTopping> .
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#OliveTopping> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid76 .
+_:genid76 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#Mild> .
+_:genid76 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#hasSpiciness> .
+_:genid76 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+# 
+# http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#OnionTopping
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#OnionTopping> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#OnionTopping> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#VegetableTopping> .
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#OnionTopping> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid77 .
+_:genid77 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#Mild> .
+_:genid77 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#hasSpiciness> .
+_:genid77 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+# 
+# http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#ParmesanTopping
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#ParmesanTopping> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#ParmesanTopping> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#CheeseTopping> .
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#ParmesanTopping> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid78 .
+_:genid78 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#Mild> .
+_:genid78 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#hasSpiciness> .
+_:genid78 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+# 
+# http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#PepperTopping
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#PepperTopping> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#PepperTopping> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#VegetableTopping> .
+# 
+# http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#PepperoniTopping
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#PepperoniTopping> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#PepperoniTopping> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#MeatTopping> .
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#PepperoniTopping> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid79 .
+_:genid79 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#Mild> .
+_:genid79 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#hasSpiciness> .
+_:genid79 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+# 
+# http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#Pizza
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#Pizza> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#Pizza> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2002/07/owl#Thing> .
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#Pizza> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid80 .
+_:genid80 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#PizzaBase> .
+_:genid80 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#hasBase> .
+_:genid80 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#Pizza> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid81 .
+_:genid81 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2001/XMLSchema#integer> .
+_:genid81 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#hasCalorificContentValue> .
+_:genid81 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+# 
+# http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#PizzaBase
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#PizzaBase> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#PizzaSauce
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#PizzaSauce> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#PizzaTopping
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#PizzaTopping> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#PrawnTopping
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#PrawnTopping> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#PrawnTopping> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#SeafoodTopping> .
+# 
+# http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#RedPepperTopping
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#RedPepperTopping> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#RedPepperTopping> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#PepperTopping> .
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#RedPepperTopping> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid82 .
+_:genid82 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#Medium> .
+_:genid82 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#hasSpiciness> .
+_:genid82 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+# 
+# http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#SalamiTopping
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#SalamiTopping> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#SalamiTopping> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#MeatTopping> .
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#SalamiTopping> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid83 .
+_:genid83 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#Mild> .
+_:genid83 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#hasSpiciness> .
+_:genid83 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+# 
+# http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#SeafoodCocktailPizza
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#SeafoodCocktailPizza> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#SeafoodCocktailPizza> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#NamedPizza> .
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#SeafoodCocktailPizza> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid84 .
+_:genid84 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#ParmesanTopping> .
+_:genid84 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#hasTopping> .
+_:genid84 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#SeafoodCocktailPizza> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid85 .
+_:genid85 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#PrawnTopping> .
+_:genid85 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#hasTopping> .
+_:genid85 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#SeafoodCocktailPizza> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid86 .
+_:genid86 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#SquidTopping> .
+_:genid86 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#hasTopping> .
+_:genid86 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#SeafoodCocktailPizza> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid87 .
+_:genid87 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#CocktailSauce> .
+_:genid87 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#hasSauce> .
+_:genid87 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#SeafoodCocktailPizza> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid88 .
+_:genid88 <http://www.w3.org/2002/07/owl#allValuesFrom> _:genid89 .
+_:genid89 <http://www.w3.org/2002/07/owl#unionOf> _:genid92 .
+_:genid92 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid91 .
+_:genid91 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid90 .
+_:genid90 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid90 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#SquidTopping> .
+_:genid90 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid91 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#PrawnTopping> .
+_:genid91 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid92 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#ParmesanTopping> .
+_:genid92 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid89 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid88 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#hasTopping> .
+_:genid88 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+# 
+# http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#SeafoodTopping
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#SeafoodTopping> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#SeafoodTopping> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#PizzaTopping> .
+# 
+# http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#SohoPizza
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#SohoPizza> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#SohoPizza> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#NamedPizza> .
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#SohoPizza> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid93 .
+_:genid93 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#MozzarellaTopping> .
+_:genid93 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#hasTopping> .
+_:genid93 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#SohoPizza> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid94 .
+_:genid94 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#OliveTopping> .
+_:genid94 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#hasTopping> .
+_:genid94 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#SohoPizza> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid95 .
+_:genid95 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#ParmesanTopping> .
+_:genid95 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#hasTopping> .
+_:genid95 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#SohoPizza> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid96 .
+_:genid96 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#TomatoTopping> .
+_:genid96 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#hasTopping> .
+_:genid96 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#SohoPizza> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid97 .
+_:genid97 <http://www.w3.org/2002/07/owl#allValuesFrom> _:genid98 .
+_:genid98 <http://www.w3.org/2002/07/owl#unionOf> _:genid102 .
+_:genid102 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid101 .
+_:genid101 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid100 .
+_:genid100 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid99 .
+_:genid99 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid99 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#TomatoTopping> .
+_:genid99 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid100 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#ParmesanTopping> .
+_:genid100 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid101 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#OliveTopping> .
+_:genid101 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid102 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#MozzarellaTopping> .
+_:genid102 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid98 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid97 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#hasTopping> .
+_:genid97 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#SohoPizza> <http://www.w3.org/2000/01/rdf-schema#comment> "A pizza that only has Mozarella and Tomato toppings" .
+# 
+# http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#SpicyBeefTopping
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#SpicyBeefTopping> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#SpicyBeefTopping> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#MeatTopping> .
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#SpicyBeefTopping> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid103 .
+_:genid103 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#Hot> .
+_:genid103 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#hasSpiciness> .
+_:genid103 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+# 
+# http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#SpicyPizza
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#SpicyPizza> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#SpicyPizza> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid104 .
+_:genid104 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid104 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid111 .
+_:genid111 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid105 .
+_:genid105 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid105 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid106 .
+_:genid106 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid107 .
+_:genid107 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid107 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid110 .
+_:genid110 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid108 .
+_:genid108 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid108 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid109 .
+_:genid109 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#Hot> .
+_:genid109 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#hasSpiciness> .
+_:genid109 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid108 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid110 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#PizzaTopping> .
+_:genid110 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid106 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#hasTopping> .
+_:genid106 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid105 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid111 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#Pizza> .
+_:genid111 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+# http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#SpicyValuePartition
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#SpicyValuePartition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#SpicyValuePartition> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid112 .
+_:genid112 <http://www.w3.org/2002/07/owl#unionOf> _:genid115 .
+_:genid115 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid114 .
+_:genid114 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid113 .
+_:genid113 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid113 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#Mild> .
+_:genid113 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid114 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#Medium> .
+_:genid114 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid115 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#Hot> .
+_:genid115 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid112 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#SpicyValuePartition> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#ValuePartition> .
+# 
+# http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#SquidTopping
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#SquidTopping> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#SquidTopping> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#SeafoodTopping> .
+# 
+# http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#SweetcornTopping
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#SweetcornTopping> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#SweetcornTopping> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#VegetableTopping> .
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#SweetcornTopping> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid116 .
+_:genid116 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#Mild> .
+_:genid116 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#hasSpiciness> .
+_:genid116 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+# 
+# http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#ThinAndCrispyBase
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#ThinAndCrispyBase> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#ThinAndCrispyBase> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#PizzaBase> .
+# 
+# http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#TomatoSauce
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#TomatoSauce> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#TomatoSauce> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#PizzaSauce> .
+# 
+# http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#TomatoTopping
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#TomatoTopping> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#TomatoTopping> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#VegetableTopping> .
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#TomatoTopping> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid117 .
+_:genid117 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#Mild> .
+_:genid117 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#hasSpiciness> .
+_:genid117 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+# 
+# http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#TunaTopping
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#TunaTopping> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#TunaTopping> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#SeafoodTopping> .
+# 
+# http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#ValuePartition
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#ValuePartition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#VeganPizza
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#VeganPizza> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#VeganPizza> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid118 .
+_:genid118 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid118 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid121 .
+_:genid121 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid119 .
+_:genid119 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid119 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid120 .
+_:genid120 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#VegetableTopping> .
+_:genid120 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#hasTopping> .
+_:genid120 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid119 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid121 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#Pizza> .
+_:genid121 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+# http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#VegetableTopping
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#VegetableTopping> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#VegetableTopping> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#PizzaTopping> .
+# 
+# http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#VegetarianPizza
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#VegetarianPizza> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#VegetarianPizza> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid122 .
+_:genid122 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid122 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid128 .
+_:genid128 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid123 .
+_:genid123 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid123 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid124 .
+_:genid124 <http://www.w3.org/2002/07/owl#allValuesFrom> _:genid125 .
+_:genid125 <http://www.w3.org/2002/07/owl#unionOf> _:genid127 .
+_:genid127 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid126 .
+_:genid126 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid126 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#VegetableTopping> .
+_:genid126 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid127 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#CheeseTopping> .
+_:genid127 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid125 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid124 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#hasTopping> .
+_:genid124 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid123 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid128 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#Pizza> .
+_:genid128 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+# http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#VeggiePizza
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#VeggiePizza> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#VeggiePizza> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#NamedPizza> .
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#VeggiePizza> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid129 .
+_:genid129 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#ThinAndCrispyBase> .
+_:genid129 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#hasBase> .
+_:genid129 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#VeggiePizza> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid130 .
+_:genid130 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#TomatoSauce> .
+_:genid130 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#hasSauce> .
+_:genid130 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#VeggiePizza> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid131 .
+_:genid131 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#MushroomTopping> .
+_:genid131 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#hasTopping> .
+_:genid131 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#VeggiePizza> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid132 .
+_:genid132 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#OliveTopping> .
+_:genid132 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#hasTopping> .
+_:genid132 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#VeggiePizza> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid133 .
+_:genid133 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#OnionTopping> .
+_:genid133 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#hasTopping> .
+_:genid133 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#VeggiePizza> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid134 .
+_:genid134 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#TomatoTopping> .
+_:genid134 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#hasTopping> .
+_:genid134 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#VeggiePizza> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid135 .
+_:genid135 <http://www.w3.org/2002/07/owl#allValuesFrom> _:genid136 .
+_:genid136 <http://www.w3.org/2002/07/owl#unionOf> _:genid140 .
+_:genid140 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid139 .
+_:genid139 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid138 .
+_:genid138 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid137 .
+_:genid137 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid137 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#TomatoTopping> .
+_:genid137 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid138 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#OnionTopping> .
+_:genid138 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid139 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#OliveTopping> .
+_:genid139 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid140 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#MushroomTopping> .
+_:genid140 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid136 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid135 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#hasTopping> .
+_:genid135 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Individuals
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#America
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#America> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#America> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#Country> .
+# 
+# http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#England
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#England> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#England> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#Country> .
+# 
+# http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#Example-AmericanHotPizza
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#Example-AmericanHotPizza> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#Example-AmericanHotPizza> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#AmericanHotPizza> .
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#Example-AmericanHotPizza> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#hasCalorificContentValue> "345"^^<http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#Example-AmericanaPizza
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#Example-AmericanaPizza> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#Example-AmericanaPizza> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#AmericanaPizza> .
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#Example-AmericanaPizza> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#hasCalorificContentValue> "662"^^<http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#Example-Margherita
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#Example-Margherita> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#Example-Margherita> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#MargheritaPizza> .
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#Example-Margherita> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#hasCalorificContentValue> "263"^^<http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#Example-QuattroFormaggio
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#Example-QuattroFormaggio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#Example-QuattroFormaggio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#FourCheesePizza> .
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#Example-QuattroFormaggio> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#hasCalorificContentValue> "723"^^<http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#Example-SeafoodCocktailPizza
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#Example-SeafoodCocktailPizza> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#Example-SeafoodCocktailPizza> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#SeafoodCocktailPizza> .
+# 
+# http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#Example-SohoPizza
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#Example-SohoPizza> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#Example-SohoPizza> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#SohoPizza> .
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#Example-SohoPizza> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#hasCalorificContentValue> "431"^^<http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#Example-VeggiePizza
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#Example-VeggiePizza> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#Example-VeggiePizza> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#VeggiePizza> .
+# 
+# http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#France
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#France> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#France> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#Country> .
+# 
+# http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#Germany
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#Germany> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#Germany> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#Country> .
+# 
+# http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#Italy
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#Italy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#Italy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#Country> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    General axioms
+# #
+# #################################################################
+# 
+# 
+_:genid141 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid141 <http://www.w3.org/2002/07/owl#members> _:genid145 .
+_:genid145 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid144 .
+_:genid144 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid143 .
+_:genid143 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid142 .
+_:genid142 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid142 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#SohoPizza> .
+_:genid142 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid143 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#MargheritaPizza> .
+_:genid143 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid144 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#AmericanaPizza> .
+_:genid144 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid145 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#AmericanHotPizza> .
+_:genid145 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+_:genid146 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid146 <http://www.w3.org/2002/07/owl#members> _:genid149 .
+_:genid149 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid148 .
+_:genid148 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid147 .
+_:genid147 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid147 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#TunaTopping> .
+_:genid147 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid148 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#PrawnTopping> .
+_:genid148 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid149 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#AnchovyTopping> .
+_:genid149 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+_:genid150 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid150 <http://www.w3.org/2002/07/owl#members> _:genid153 .
+_:genid153 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid152 .
+_:genid152 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid151 .
+_:genid151 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid151 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#TomatoSauce> .
+_:genid151 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid152 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#CocktailSauce> .
+_:genid152 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid153 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#BBQSauce> .
+_:genid153 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+_:genid154 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid154 <http://www.w3.org/2002/07/owl#members> _:genid158 .
+_:genid158 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid157 .
+_:genid157 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid156 .
+_:genid156 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid155 .
+_:genid155 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid155 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#VegetableTopping> .
+_:genid155 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid156 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#SeafoodTopping> .
+_:genid156 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid157 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#MeatTopping> .
+_:genid157 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid158 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#CheeseTopping> .
+_:genid158 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+_:genid159 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid159 <http://www.w3.org/2002/07/owl#members> _:genid162 .
+_:genid162 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid161 .
+_:genid161 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid160 .
+_:genid160 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid160 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#RedPepperTopping> .
+_:genid160 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid161 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#JalapenoPepperTopping> .
+_:genid161 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid162 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#GreenPepperTopping> .
+_:genid162 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+_:genid163 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid163 <http://www.w3.org/2002/07/owl#members> _:genid167 .
+_:genid167 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid166 .
+_:genid166 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid165 .
+_:genid165 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid164 .
+_:genid164 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid164 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#SpicyBeefTopping> .
+_:genid164 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid165 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#SalamiTopping> .
+_:genid165 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid166 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#PepperoniTopping> .
+_:genid166 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid167 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#HamTopping> .
+_:genid167 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+_:genid168 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid168 <http://www.w3.org/2002/07/owl#members> _:genid171 .
+_:genid171 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid170 .
+_:genid170 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid169 .
+_:genid169 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid169 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#Mild> .
+_:genid169 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid170 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#Medium> .
+_:genid170 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid171 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#Hot> .
+_:genid171 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+_:genid172 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid172 <http://www.w3.org/2002/07/owl#members> _:genid178 .
+_:genid178 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid177 .
+_:genid177 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid176 .
+_:genid176 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid175 .
+_:genid175 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid174 .
+_:genid174 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid173 .
+_:genid173 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid173 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#TomatoTopping> .
+_:genid173 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid174 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#SweetcornTopping> .
+_:genid174 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid175 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#PepperTopping> .
+_:genid175 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid176 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#OnionTopping> .
+_:genid176 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid177 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#OliveTopping> .
+_:genid177 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid178 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#MushroomTopping> .
+_:genid178 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+_:genid179 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid179 <http://www.w3.org/2002/07/owl#members> _:genid183 .
+_:genid183 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid182 .
+_:genid182 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid181 .
+_:genid181 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid180 .
+_:genid180 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid180 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#PizzaTopping> .
+_:genid180 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid181 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#PizzaSauce> .
+_:genid181 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid182 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#PizzaBase> .
+_:genid182 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid183 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#Pizza> .
+_:genid183 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+_:genid184 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDifferent> .
+_:genid184 <http://www.w3.org/2002/07/owl#distinctMembers> _:genid187 .
+_:genid187 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid186 .
+_:genid186 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid185 .
+_:genid185 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid185 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#France> .
+_:genid185 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid186 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#England> .
+_:genid186 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid187 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#America> .
+_:genid187 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+_:genid188 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDifferent> .
+_:genid188 <http://www.w3.org/2002/07/owl#distinctMembers> _:genid191 .
+_:genid191 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid190 .
+_:genid190 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid189 .
+_:genid189 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid189 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#Germany> .
+_:genid189 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid190 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#England> .
+_:genid190 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid191 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#America> .
+_:genid191 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+_:genid192 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDifferent> .
+_:genid192 <http://www.w3.org/2002/07/owl#distinctMembers> _:genid195 .
+_:genid195 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid194 .
+_:genid194 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid193 .
+_:genid193 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid193 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#Italy> .
+_:genid193 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid194 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#England> .
+_:genid194 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid195 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#America> .
+_:genid195 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+_:genid196 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDifferent> .
+_:genid196 <http://www.w3.org/2002/07/owl#distinctMembers> _:genid198 .
+_:genid198 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid197 .
+_:genid197 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid197 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#Germany> .
+_:genid197 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid198 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#France> .
+_:genid198 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+_:genid199 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDifferent> .
+_:genid199 <http://www.w3.org/2002/07/owl#distinctMembers> _:genid202 .
+_:genid202 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid201 .
+_:genid201 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid200 .
+_:genid200 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid200 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#Italy> .
+_:genid200 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid201 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#Germany> .
+_:genid201 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid202 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/nannaphatkeamanuchet/ontologies/2023/5/my_pizza#France> .
+_:genid202 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+# Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/
